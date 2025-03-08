@@ -26,7 +26,7 @@ const Hero = () => {
                   In The Golden Afternoon
                 </h3>
                 <p className="text-gray-500">
-                  A beautiful landscape illustration...
+                  b beautiful landscape illustration...
                 </p>
               </div>
             </div>
