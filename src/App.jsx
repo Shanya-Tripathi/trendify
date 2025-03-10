@@ -4,7 +4,9 @@ import Hero from "./components/Hero.jsx";
 import About from "./components/About.jsx";
 import Portfolio from "./components/Portfolio.jsx";
 import Contact from "./components/Contact.jsx";
-import Login from "./components/Login.jsx";
+import Login from "./components/login.jsx";
+import Chup from "./components/chup.jsx";
+
 function App() {
   return (
     <div className="App">
@@ -12,8 +14,8 @@ function App() {
       <Hero />
       <About />
       <Contact />
+      <Chup />
       <Portfolio />
-
       <Login />
     </div>
   );
