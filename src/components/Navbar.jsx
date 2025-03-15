@@ -3,6 +3,7 @@ import { HiMiniEquals, HiMiniXMark } from "react-icons/hi2";
 import { FaHeart } from "react-icons/fa";
 import { HiUserCircle , HiTruck , HiShoppingCart } from "react-icons/hi";
 import {assets} from '../assets/assets'
+import LoginForm from "./login/Login-signup.jsx";
 
 const Navbar = () => {
 
@@ -22,7 +23,7 @@ useEffect(()=>{
     <div className='fixed top-0 w-full   overflow-hidden z-50'>
         {/*--------desktop view--------*/}
         <div className='container mx-auto flex justify-center align-middle flex-nowrap items-center fixed bg-white py-4   '>
-            <ul className='hidden text-xl items-center md:flex gap-7 text-black
+            <ul className='hidden text-2xl items-center md:flex gap-7 text-black
               inknut-antiqua-regular '>
                 <a href ="#Header" className='px-2 relative text-black cursor-pointer transition-all ease-in-out before:transition-[width] before:ease-in-out before:duration-700 before:absolute before:bg-black before:origin-center before:h-[1px] before:w-0 hover:before:w-[50%] before:bottom-0 before:left-[50%] after:transition-[width] after:ease-in-out after:duration-700 after:absolute after:bg-black after:origin-center after:h-[1px] after:w-0 hover:after:w-[50%] after:bottom-0 after:right-[50%] '
                  >HOME</a>
@@ -53,7 +54,7 @@ useEffect(()=>{
     </ul>    
     </div> 
 
-
+{/* sidebar */}
     <div class="fixed right-4 top-2/4 hidden -translate-y-2/4 lg:block inknut-antiqua-regular">
         <div class="relative bg-clip-border rounded-xl bg-white  text-black shadow-md group flex flex-col gap-1 border border-blue-gray-50 p-1.5">
             <a href="">
