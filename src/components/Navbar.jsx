@@ -38,6 +38,11 @@ useEffect(()=>{
                  > TRENDING</a>
                 
             </ul>
+            {/* <img
+        src={assets.line}
+        className="absolute bottom-0  w-full bg-bottom"
+        alt="Flowers"
+      /> */}
             <HiMiniEquals onClick ={()=> setShowMobileMenu(true)}  className='md:hidden w-8 h-8 cursor-pointer text-black' />
         </div> 
         {/*--------mobile view--------*/} 

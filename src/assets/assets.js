@@ -5,6 +5,7 @@ import flowers from './HOME/flowers.png'
 import hero from './HOME/trendify.svg'
 import leaves from './HOME/leaves.png'
 import leaves_bhnd from './HOME/leaves_bhnd.png'
+import line from './HOME/line.svg'
 
 export const assets = {
     logo,
@@ -13,6 +14,7 @@ export const assets = {
     hero,
     backgound,
     leaves,
+    line,
     leaves_bhnd
 }
 
