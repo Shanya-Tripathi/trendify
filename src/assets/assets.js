@@ -1,16 +1,21 @@
 import backgound from './HOME/backgroundvid.mp4'
 import logo from './HOME/Trendify-logo.svg'
 import logo_bhnd from './HOME/Trendify-logo-behind.png'
-import bags from './HOME/bags.png'
+import flowers from './HOME/flowers.png'
 import hero from './HOME/trendify.svg'
+import leaves from './HOME/leaves.png'
+import leaves_bhnd from './HOME/leaves_bhnd.png'
+import line from './HOME/line.svg'
 
 export const assets = {
     logo,
     logo_bhnd,
-    bags,
+    flowers,
     hero,
     backgound,
-    
+    leaves,
+    line,
+    leaves_bhnd
 }
 
 // export const tabs = [
