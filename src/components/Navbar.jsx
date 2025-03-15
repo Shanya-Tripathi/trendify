@@ -19,8 +19,9 @@ useEffect(()=>{
 },[showMobileMenu])
 
   return (
-    <div className='fixed top-0 left-0 w-full  overflow-hidden'>
-        <div className='container mx-auto flex justify-center flex-nowrap items-center fixed top-0 right-0 left-0 rounded-md  md:h-[50px]  md:mt-4 mt-3 '>
+    <div className='fixed top-0 w-full   overflow-hidden z-50'>
+        {/*--------desktop view--------*/}
+        <div className='container mx-auto flex justify-center align-middle flex-nowrap items-center fixed bg-white py-4   '>
             <ul className='hidden text-xl items-center md:flex gap-7 text-black
               inknut-antiqua-regular '>
                 <a href ="#Header" className='px-2 relative text-black cursor-pointer transition-all ease-in-out before:transition-[width] before:ease-in-out before:duration-700 before:absolute before:bg-black before:origin-center before:h-[1px] before:w-0 hover:before:w-[50%] before:bottom-0 before:left-[50%] after:transition-[width] after:ease-in-out after:duration-700 after:absolute after:bg-black after:origin-center after:h-[1px] after:w-0 hover:after:w-[50%] after:bottom-0 after:right-[50%] '
