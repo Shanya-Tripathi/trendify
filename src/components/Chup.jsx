@@ -5,7 +5,7 @@ const Chup = () => {
     <div className="max-w-md mx-auto bg-white shadow-lg rounded-lg overflow-hidden">
       <img
         className="w-full h-64 object-cover"
-        src="./src/assets/images/[000569].jpg"
+        src=".jpg"
         alt="Sleeping Buddha Statue"
       />
       <div className="p-4">
@@ -28,4 +28,4 @@ const Chup = () => {
   );
 };
 
-export default chup;
+export default Chup;

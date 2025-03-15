@@ -51,6 +51,16 @@ const products = [
     reviews: "164,684",
     image: "/boat-airdopes-141.png",
   },
+  {
+    id: 6,
+    name: "boAt Bassheads 100 In Ear Wired Earphones",
+    price: 297,
+    mrp: 999,
+    discount: "70% off",
+    rating: 4.5,
+    reviews: "415,395",
+    image: "/boat-bassheads.png",
+  }
 ];
 
 const Contact = () => {

@@ -1,6 +1,6 @@
 import React from "react";
 
-const LoginForm = () => {
+const Login = () => {
   return (
     <div class="z-10  bg-[url('https://i.pinimg.com/originals/6a/cd/07/6acd0780a4c693b2cf8da52b5c44b18e.gif')] bg-cover bg-center flex font-jersey justify-center items-center min-h-screen">
       <div class="z-20 rounded-lg p-8 max-w-sm w-full shadow-2xl backdrop-blur-sm border-white-950 border-2">
@@ -42,4 +42,4 @@ const LoginForm = () => {
   );
 };
 
-export default LoginForm;
+export default Login;
